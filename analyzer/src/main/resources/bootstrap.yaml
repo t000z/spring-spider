@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: analyzer
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: {ip:port}
+      config:
+        file-extension: yaml

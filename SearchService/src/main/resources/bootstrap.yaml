@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SearchService
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: {ip:port}
+      config:
+        file-extension: yaml

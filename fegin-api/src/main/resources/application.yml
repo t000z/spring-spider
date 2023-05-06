@@ -1,0 +1,15 @@
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
+      JsoupSpider:
+        connectTimeout: 100000
+        readTimeout: 100000
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
